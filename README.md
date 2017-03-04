@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<title>HTML标签练习</title>
+		<style type="text/css">
+			table tr td,th{
+					border:3px solid red;
+			}		
+		</style>
+	</head>
+	<body>
+		<h1>网站一级标题</h1>
+			<ul>
+				<li><a href="www.baidu.com" target="_blank">导航链接一</a></li>
+				<li><a href="http://www.imooc.com/learn/9" target="_parent">导航链接二</a></li>
+				<li><a href="http://ife.baidu.com/" target="_self">导航链接三</a></li>
+				<li><a href="http://ife.baidu.com/college/detail/id/9" target="top">导航链接四</a></li>
+			</ul>
+		<h2>文章的二级标题</h2>
+		<h4>文章的四级标题</h4>
+			<p>文章发表的时间 文章作者</p>
+			<p>这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落，这是一段很长的段落。</p>
+			<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489205982&di=36bece0e28bd3c2d0611b363a60fef72&imgtype=jpg&er=1&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F015a745548c1020000019ae9aab9fd.jpg" alt="图书馆" title="一米阳光，书香沁脾">
+		<h3>文章的三级标题</h3>
+			<ol>
+				<li>项目列表一</li>
+				<li>项目列表二</li>
+				<li>项目列表三</li>
+				<li>项目列表四</li>
+			</ol>
+		这是一条横线<hr />
+		<h4>这是一个四级标题</h4>
+		<p>这是一段文字，<em>这里是带有强调的文字</em>。这是一段文字，<strong>是带有加粗的文字。</strong></p>
+		<p>最初知道庄周，是从一首诗<q>庄生晓梦迷蝴蝶，望帝春心托杜鹃。</q>开始的，虽然但是不知道什么意思，只是觉得诗句挺有意思。</p>
+		<h5>这是一个长文本引用标签（biockquote）</h5>
+		<blockquote>窗前明月光,<br />疑似地上霜,<br />举头望明月，<br />低头思故乡。</blockquote>
+			<hr />
+		<table summary="这是班级个人信息">
+			<caption>101班个人信息</caption>
+			<tbody>
+				<tr>
+					<th>姓名</th>
+					<th>性别</th>
+					<th>年龄</th>
+				</tr>
+				<tr>
+					<td>白永建</td>
+					<td>男</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td>梁宇</td>
+					<td>男</td>
+					<td>25</td>
+				</tr>
+				<tr>
+					<td>胡日环</td>
+					<td>男</td>
+					<td>25</td>
+				</tr>
+				<tr>
+					<td>总计</td>
+					
+					<td>25</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr />
+		<p>如果你有什么问题，<a href="mailto:814812467@qq.com;byodian@outlook.com?cc=byodian@hotmail&bcc=7106@qq.com&subject=我有一个问题&body=请在这里输入内容" >请发邮件给我</a></p>
+		<hr />
+		<h1>表单标签</h1>
+		<h1>侧边注册窗口标题</h1>
+			<form action="save.php" method="post">
+				<label>请输入邮箱地址：</label>
+				<input type="text" value="这是一个文本输入框" name="email" />
+				<br />
+				<p>邮箱格式请按要求输入</p>
+				<label>请输入密码:</label>
+				<input type="password" value="" name="pass" />
+				<p>密码为6-16位英文数字</p>
+				<br />
+				<label>性别：</label>
+				<input type="radio" name="geder" value="男" checked /><label>男</label>
+				<input type="radio" name="geder" value="女" /><label>女</label>
+				<br />
+				<br/>
+				<label>城市：</label>
+					<select>
+						<option value="beijing" selected>北京</option>
+						<option value="tianjin">天津</option>
+						<option value="hanghzhou">杭州</option>
+						<option value="chengdu">成都</option>
+					</select>
+				<br />
+				<br />
+				<label>爱好：</label>
+				<input type="checkbox" name="checkbox1" name="运动" /><label>运动</label>
+				<input type="checkbox" name="checkbox2" name="艺术" /><label>艺术</label>
+				<input type="checkbox" name="checkbox3" name="科学" /><label>科学</label>
+				<input type="checkbox" name="checkbox4" name="历史" /><label>历史</label>
+				<br />
+				<br/>
+				<label>个人描述：</label>
+				<textarea rows="2" cols="50">请输入文字.....</textarea>
+				<input type="submit" value="确认提交" />
+				<input type="reset" value="重置" />
+			</form>
+			<p>这里是空格&nbsp;&nbsp;&nbsp;&nbsp;空格</p>
+			<p>&copy;版权所有</p>
+	</body>
+</html>
